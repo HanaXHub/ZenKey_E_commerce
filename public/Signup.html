@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zenkey Signup</title>
+    <link rel="stylesheet" href="./css/Login.css">
+    <script type="text/javascript" src="./scripts/Signup.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/NavbarBeforeLogin.js" defer></script>
+    <script src="./scripts/FooterBefore.js" defer></script>
+    <link rel="icon" type="image/png" href="\Images\ZenkeyLogoIcon.png" sizes="32x32">
+    <link rel="stylesheet" href="./css/Global.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body>
+    <header></header>
+    <div class="page-wrapper signup-image">
+        <form class="container" onsubmit="return validatePassword(event)">
+            <div class="container-title">
+                Signup
+            </div>
+            <div class="container-subtitle">
+                Signup to start your shopping journey!
+            </div>
+
+            <div class="input-fields">
+                <input class="input-field" type="text" id="firstname" name="firstname" placeholder="First and last name"
+                    pattern="^[a-z|A-Z]{2,}$" required>
+                <input class="input-field" type="email" id="email" name="email" placeholder="Email"
+                    pattern="^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,3}$" required>
+                <input class="input-field" type="password" id="password" name="password" placeholder="Password"
+                    title="Password must be between 6-15 characters and must include atleast one lowercase, uppercase, number, and special character"
+                    required>
+                <input class="input-field" type="password" id="confirm_password" name="confirm_password"
+                    placeholder="Confirm password" required>
+                <input class="submitButton" type="submit" value="Register" onclick="validatePassword()">
+            </div>
+
+            <div class="container-text">
+                <p>Already have an account? <a href="Login.html">Login here</a></p>
+            </div>
+
+            <span id="passError"></span>
+        </form>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
