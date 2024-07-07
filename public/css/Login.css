@@ -1,0 +1,168 @@
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 500px;
+    height: fit-content;
+    padding: 80px 80px 60px 80px;
+    background-color: #fff;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container-title {
+    font-family: 'Poppins Bold';
+    font-size: 30px;
+}
+
+.container-subtitle {
+    font-family: 'Poppins Regular';
+    font-size: 15px;
+}
+
+.container-text {
+    font-family: 'Poppins Light';
+    font-size: 13px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: fit-content;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 10px;
+    padding: 16px 18px;
+    border: 0.5px solid grey;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins Regular';
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+.input-field:hover {
+    cursor: pointer;
+}
+
+.input-field:focus {
+    outline: none;
+    cursor: text;
+    border-color: #ee5417; 
+    box-shadow: 0px 4px 12px rgba(238, 84, 23, 0.25);
+}
+
+.submitButton {
+    width: 80%;
+    border-radius: 10px;
+    padding: 16px 18px;
+    background-color: black;
+    border: none;
+    transition: 0.3s ease-in-out;
+    color: white;
+    font-family: 'Poppins SemiBold';
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.submitButton:hover{
+    background-color: #ee5417;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(238, 84, 23, 0.25);
+}
+
+.login-image {
+    background-image: url("../Images/bgOrangeLogin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup-image {
+    background-image: url("../Images/bgOrange.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#passError{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    color: #FFF;
+    font-family: 'Poppins SemiBold';
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 800px) {
+    .page-wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 60%;
+        padding: 50px 40px 40px 40px;
+        gap: 8px;
+    }
+
+    .container-title {
+        font-size: 28px;
+    }
+
+    .container-subtitle {
+        font-size: 13px;
+    }
+
+    .container-text {
+        font-size: 11px;
+    }
+
+    .input-fields {
+        width: 85%;
+        gap: 30px;
+    }
+
+    .input-field {
+        padding: 14px 16px;
+        font-size: 11px;
+    }
+
+    .submitButton {
+        padding: 14px 16px;
+        font-size: 13px;
+    }
+
+    #passError {
+        height: 30px;
+        font-size: 11px;
+    }
+}

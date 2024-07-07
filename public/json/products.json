@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "name": "Keychron Q3 QMK Custom Mechanical Keyboard",
+        "title": "Keychron Q3 QMK",
+        "category": "Keyboards",
+        "description": "Custom mechanical keyboard with QMK firmware, ideal for enthusiasts.",
+        "seller": "Keychron",
+        "image": "../Images/key1.png",
+        "price": 154.00
+    },
+    {
+        "id": 2,
+        "name": "Keychron Q8 (Alice Layout) QMK Custom Mechanical Keyboard",
+        "title": "Keychron Q8",
+        "category": "Keyboards",
+        "description": "Custom mechanical keyboard featuring Alice layout and QMK firmware.",
+        "seller": "Keychron",
+        "image": "../Images/key2.png",
+        "price": 165.00
+    },
+    {
+        "id": 3,
+        "name": "Keychron Q1 QMK Custom Mechanical Keyboard (Japan JIS Layout)",
+        "title": "Keychron Q1 QMK",
+        "category": "Keyboards",
+        "description": "Custom mechanical keyboard with QMK firmware, designed for Japan JIS layout.",
+        "seller": "Keychron",
+        "image": "../Images/key3.png",
+        "price": 199.00
+    },
+    {
+        "id": 4,
+        "name": "Keychron Q1 Pro QMK/VIA Wireless Custom Mechanical Keyboard",
+        "title": "Keychron Q1 Pro QMK",
+        "category": "Keyboards",
+        "description": "Wireless custom mechanical keyboard with QMK firmware for professional use.",
+        "seller": "Keychron",
+        "image": "../Images/key4.png",
+        "price": 179.00
+    },
+    {
+        "id": 5,
+        "name": "Keychron S1 QMK Custom Mechanical Keyboard",
+        "title": "Keychron S1 QMK",
+        "category": "Keyboards",
+        "description": "Slim custom mechanical keyboard with QMK firmware for a seamless typing experience.",
+        "seller": "Keychron",
+        "image": "../Images/key5.png",
+        "price": 109.00
+    },
+    {
+        "id": 6,
+        "name": "Keychron C1 Wired Mechanical Keyboard",
+        "title": "Keychron C1",
+        "category": "Keyboards",
+        "description": "Wired mechanical keyboard with durable construction and tactile switches.",
+        "seller": "Keychron",
+        "image": "../Images/key6.png",
+        "price": 49.00
+    },
+    {
+        "id": 7,
+        "name": "Keychron C2 Wired Mechanical Keyboard",
+        "title": "Keychron C2",
+        "category": "Keyboards",
+        "description": "Wired mechanical keyboard with customizable keys and sleek design.",
+        "seller": "Keychron",
+        "image": "../Images/key7.png",
+        "price": 59.00
+    },
+    {
+        "id": 8,
+        "name": "Keychron Q5 Pro QMK/VIA Wireless Custom Mechanical Keyboard",
+        "title": "Keychron Q5 Pro QMK",
+        "category": "Keyboards",
+        "description": "Wireless custom mechanical keyboard with QMK firmware, designed for professional users.",
+        "seller": "Keychron",
+        "image": "../Images/key8.png",
+        "price": 190.00
+    },
+    {
+        "id": 9,
+        "name": "Keychron K3 Non-Backlight Ultra-Slim Wireless Mechanical Keyboard (Version 2)",
+        "title": "Keychron K3",
+        "category": "Keyboards",
+        "description": "Ultra-slim wireless mechanical keyboard with a non-backlight design for minimalists.",
+        "seller": "Keychron",
+        "image": "../Images/key9.png",
+        "price": 74.00
+    },
+    {
+        "id": 10,
+        "name": "Keychron Q6 Max QMK/VIA Wireless Custom Mechanical Keyboard",
+        "title": "Keychron Q6 Max QMK",
+        "category": "Keyboards",
+        "description": "Wireless custom mechanical keyboard with QMK firmware, providing maximum performance.",
+        "seller": "Keychron",
+        "image": "../Images/key10.png",
+        "price": 199.00
+    },
+    {
+        "id": 11,
+        "name": "MX Master 3 for Mac",
+        "title": "MX Master 3",
+        "category": "Mice",
+        "description": "Advanced mouse designed for Mac users, offering precision and comfort.",
+        "seller": "Logitech",
+        "image": "../Images/mouse1.png",
+        "price": 129.00
+    },
+    {
+        "id": 12,
+        "name": "Lift in Pink",
+        "title": "Lift in Pink",
+        "category": "Mice",
+        "description": "Elegant pink mouse offering smooth navigation and ergonomic design.",
+        "seller": "Logitech",
+        "image": "../Images/mouse2.png",
+        "price": 149.00
+    },
+    {
+        "id": 13,
+        "name": "MX Vertical",
+        "title": "MX Vertical",
+        "category": "Mice",
+        "description": "Ergonomic mouse designed for vertical use, reducing wrist strain.",
+        "seller": "Logitech",
+        "image": "../Images/mouse3.png",
+        "price": 139.00
+    },
+    {
+        "id": 14,
+        "name": "MX Ergo",
+        "title": "MX Ergo",
+        "category": "Mice",
+        "description": "Trackball mouse providing precise control and customizable comfort.",
+        "seller": "Logitech",
+        "image": "../Images/mouse4.png",
+        "price": 98.99
+    },
+    {
+        "id": 15,
+        "name": "ERGO M575 Wireless Trackball Mouse",
+        "title": "ERGO M575",
+        "category": "Mice",
+        "description": "Wireless trackball mouse offering smooth tracking and ergonomic design.",
+        "seller": "Logitech",
+        "image": "../Images/mouse5.png",
+        "price": 86.00
+    },
+    {
+        "id": 16,
+        "name": "Pop Mouse",
+        "title": "Pop Mouse",
+        "category": "Mice",
+        "description": "Colorful mouse with a pop design, delivering fun and functionality.",
+        "seller": "Logitech",
+        "image": "../Images/mouse6.png",
+        "price": 45.00
+    },
+    {
+        "id": 17,
+        "name": "M20 Triathlon Multi-Device Mouse",
+        "title": "M20 Triathlon",
+        "category": "Mice",
+        "description": "Versatile multi-device mouse ideal for users needing seamless switching.",
+        "seller": "Logitech",
+        "image": "../Images/mouse7.png",
+        "price": 58.94
+    },
+    {
+        "id": 18,
+        "name": "Pebble Mouse 2 M350S",
+        "title": "Pebble Mouse 2",
+        "category": "Mice",
+        "description": "Sleek and lightweight mouse with a comfortable pebble-like design.",
+        "seller": "Logitech",
+        "image": "../Images/mouse8.png",
+        "price": 29.99
+    },
+    {
+        "id": 19,
+        "name": "M705 Marathon Mouse",
+        "title": "M705 Marathon",
+        "category": "Mice",
+        "description": "Durable mouse with long battery life, perfect for marathon users.",
+        "seller": "Logitech",
+        "image": "../Images/mouse9.png",
+        "price": 49.99
+    },
+    {
+        "id": 20,
+        "name": "MX Anywhere 3 for Mac",
+        "title": "MX Anywhere 3 for Mac",
+        "category": "Mice",
+        "description": "Compact mouse designed for Mac users, providing flexibility and precision.",
+        "seller": "Logitech",
+        "image": "../Images/mouse10.png",
+        "price": 69.99
+    },
+    {
+        "id": 22,
+        "name": "Cursed Seal Case",
+        "title": "Cursed Seal Case",
+        "category": "Phone Cases",
+        "description": "Phone case featuring a cursed seal design, adding a touch of mystery and style.",
+        "seller": "Casetify",
+        "image": "../Images/PhoneCase1.png",
+        "price": 75
+    },
+    {
+        "id": 23,
+        "name": "Stars Black Case",
+        "title": "Stars Black Case",
+        "category": "Phone Cases",
+        "description": "Phone case adorned with stars on a black background, offering elegance and protection.",
+        "seller": "Casetify",
+        "image": "../Images/PhoneCase2.png",
+        "price": 80
+    },
+    {
+        "id": 24,
+        "name": "Gojo Character Case",
+        "title": "Gojo Character Case",
+        "category": "Phone Cases",
+        "description": "Phone case featuring popular Gojo character, adding a touch of fandom to your device.",
+        "seller": "Casetify",
+        "image": "../Images/PhoneCase3.png",
+        "price": 70
+    },
+    {
+        "id": 25,
+        "name": "Fruit Stickers Case",
+        "title": "Fruit Stickers Case",
+        "category": "Phone Cases",
+        "description": "Vibrant phone case adorned with colorful fruit stickers, adding a playful touch to your device.",
+        "seller": "Casetify",
+        "image": "../Images/PhoneCase4.png",
+        "price": 70
+    },
+    {
+        "id": 26,
+        "name": "Rabbit Ribbon Case",
+        "title": "Rabbit Ribbon Case",
+        "category": "Phone Cases",
+        "description": "Charming phone case featuring a rabbit and ribbon design, adding whimsy to your device.",
+        "seller": "Casetify",
+        "image": "../Images/PhoneCase5.png",
+        "price": 65
+    },
+    {
+        "id": 27,
+        "name": "Deep Blue Sea Case",
+        "title": "Deep Blue Sea Case",
+        "category": "Phone Cases",
+        "description": "Phone case depicting a serene deep blue sea, offering tranquility and style.",
+        "seller": "Casetify",
+        "image": "../Images/PhoneCase6.png",
+        "price": 70
+    },
+    {
+        "id": 28,
+        "name": "Red Japan Desk Pad",
+        "title": "Red Japan Desk Pad",
+        "category": "Deskpads",
+        "description": "Desk pad featuring a striking red Japan design, adding elegance to your workspace.",
+        "seller": "Inked",
+        "image": "../Images/DeskPad2.png",
+        "price": 39.95
+    },
+    {
+        "id": 29,
+        "name": "Gold Slate Desk Pad",
+        "title": "Gold Slate Desk Pad",
+        "category": "Deskpads",
+        "description": "Desk pad with a luxurious gold slate pattern, elevating the aesthetics of your desk.",
+        "seller": "Inked",
+        "image": "../Images/DeskPad3.png",
+        "price": 36.95
+    },
+    {
+        "id": 30,
+        "name": "Layered Swirl Desk Pad",
+        "title": "Layered Swirl Desk Pad",
+        "category": "Deskpads",
+        "description": "Desk pad featuring a mesmerizing layered swirl design, adding creativity to your workspace.",
+        "seller": "Inked",
+        "image": "../Images/DeskPad4.png",
+        "price": 36.95
+    },
+    {
+        "id": 31,
+        "name": "Two Apples Desk Pad",
+        "title": "Two Apples Desk Pad",
+        "category": "Deskpads",
+        "description": "Desk pad adorned with two apple illustrations, adding a touch of nature to your workspace.",
+        "seller": "Inked",
+        "image": "../Images/DeskPad1.png",
+        "price": 49.95
+    },
+    {
+        "id": 32,
+        "name": "Goldframe Oni Infiltrator Desk Pad",
+        "title": "Goldframe Oni Infiltrator Desk Pad",
+        "category": "Deskpads",
+        "description": "Desk pad featuring a fierce goldframe oni infiltrator, bringing boldness to your workspace.",
+        "seller": "Inked",
+        "image": "../Images/DeskPad5.png",
+        "price": 39.95
+    },
+    {
+        "id": 33,
+        "name": "Ghostlight Oni Magus Desk Pad",
+        "title": "Ghostlight Oni Magus Desk Pad",
+        "category": "Deskpads",
+        "description": "Desk pad showcasing a mystical ghostlight oni magus, adding an aura of mystery to your workspace.",
+        "seller": "Inked",
+        "image": "../Images/DeskPad6.png",
+        "price": 39.95
+    }
+]

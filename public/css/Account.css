@@ -1,0 +1,347 @@
+html {
+    overflow-x: hidden;
+}
+
+.accountTitle {
+    font-family: 'Poppins Medium';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.MenuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+#UserSelection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+#UserSelectionOffline {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ee5417 ;
+    background-color: rgba(238, 84, 23, 0.1); /* 10% opaque */
+    font-family: "Poppins Semibold";
+    margin-top: 20px;
+    text-align: center;
+}
+
+#UserSelectionOffline >p{
+    font-family: "Poppins Regular";
+    font-size: small;
+
+}
+
+.infoTitle {
+    color: #000;
+    font-family: 'Poppins Medium';
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 85%;
+    text-align: left;
+}
+
+#selectedForm {
+    color: rgb(146, 144, 144);
+}
+
+#deleteAcc {
+    color: grey;
+}
+
+#deleteAcc:hover {
+    color: red;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.links>li {
+    margin-bottom: 20px;
+    list-style-type: none;
+    font-family: 'Poppins Medium';
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.links>hr {
+    width: 14vh;
+    margin-bottom: 20px;
+}
+
+.menuLink {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menuLink::after {
+    content: '';
+    display: block;
+    margin-top: 5px;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: width .3s;
+}
+
+.menuLink:hover::after {
+    width: 100%;
+    cursor: pointer;
+    transition: width .3s;
+}
+
+#paymentOffline, #profileOffline, #ordersOffline  {
+    color: #ee5417 !important;
+    font-weight: bold !important;
+}
+
+
+.inputFieldDiv {
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 0.5px solid grey;
+    font-family: 'Poppins Regular';
+    font-size: 12px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+.inputFieldDiv:focus {
+    border: 1px solid #ee5417;
+}
+
+
+.submitButton {
+    background-color: #000;
+    border-radius: 3vh;
+    border: none;
+    width: 50%;
+    height: 100%;
+    padding: 15px 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Poppins Semibold';
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+.submitButton:hover {
+    background-color: #ee5417;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 60px;
+    padding: 30px;
+    background-color: #FFF;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    margin-bottom: 40px;
+}
+
+.order-item-image-container {
+    min-width: 50px;
+    max-width: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #eeeded;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.order-item-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.order-item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.order-item-name {
+    font-family: 'Poppins Semibold';
+    font-size: 16px;
+    color: #000;
+}
+
+.order-item-price {
+    font-family: 'Poppins Medium';
+    font-size: 15px;
+    color: #000;
+}
+
+.order-item-quantity {
+    font-family: 'Poppins Light';
+    font-size: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.view-product-link {
+    font-family: 'Poppins Medium';
+    font-size: 13px;
+    color: #ee5417;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkout-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.checkout-label {
+    font-family: 'Poppins Medium';
+    font-size: 15px;
+    color: #000;
+}
+
+.checkout-group-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.expiry-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    width: 55%;
+}
+
+.cvv-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    width: 28%;
+}
+
+.checkout-hr {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .accountTitle {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .infoTitle {
+        text-align: center;
+    }
+
+    .order-item {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .order-item-details {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .checkout-group-inline {
+        gap: 50px;
+    }
+
+    .expiry-input {
+        width: 45%;
+    }
+
+    .cvv-input {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .MenuItems {
+        width: 100%;
+        max-width: 80%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

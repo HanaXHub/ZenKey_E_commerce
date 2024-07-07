@@ -1,0 +1,89 @@
+
+
+.wrapper {
+
+    justify-content: center;
+    align-items: center;
+    width: 55vh;
+    height: 75vh;
+    display: flex;
+    color: black;
+    padding: 3vh;
+    padding-top: 0vh;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: white;
+    border-radius: 5vh;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.inputFieldDiv {
+
+    margin-bottom: 4vh;
+
+}
+
+.submitButton {
+    background-color: black;
+    border: 1px;
+    border-radius: 1vh;
+    width: 37vh;
+    height: 5vh;
+    color: white;
+    font-family: 'Poppins SemiBold';
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.submitButton:hover{
+    background-color: #ee5417;
+
+}
+.formButtonDiv {
+
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: 'Poppins SemiBold';
+    background-image: url("../Images/bgOrange.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 11px;
+    color: rgb(146, 144, 144);
+
+}
+input {
+    height: 3vh;
+    width: 35vh;
+    border-radius: 1vh;
+    border: 0.5px solid grey;
+    padding: 1vh;
+    font-family: Poppins;
+    font-size: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ee5417; 
+}
+
+
+#passError{
+    color:red;
+    font-size: 9px;
+    margin-bottom: 4vh;
+    text-align: center;
+}

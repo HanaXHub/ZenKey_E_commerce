@@ -1,0 +1,113 @@
+/* Global fonts */
+
+@font-face {
+  font-family: 'Poppins ExtraLight';
+  src: url('../Fonts/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Light';
+  src: url('../Fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('../Fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('../Fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins SemiBold';
+  src: url('../Fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('../Fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../Fonts/Oswald-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Refault';
+  src: url('../Fonts/REFAULT.ttf');
+}
+/* Global styles  */
+
+a {
+  text-decoration: none;
+}
+
+/* Change color of links when it is clicked */
+a:visited {
+  color: none;
+}
+
+body,
+html {
+  margin: 0 auto;
+}
+
+/* Style for the breadcrumbs */
+
+.breadcrumbs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Poppins Light';
+  word-spacing: 0.3em;
+}
+
+.breadcrumbs-active {
+  font-family: 'Poppins Medium';
+  text-decoration: underline;
+}
+
+/* Style for the pop-up */
+.popup {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  bottom: -500px;
+  transition: bottom 0.5s ease-in-out;
+  font-family: 'Poppins Medium';
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .popup {
+    width: 80%;
+  }
+}
+
+.show {
+  bottom: 25px;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+/* Grid-style page spacings */
+
+.grid-page {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}

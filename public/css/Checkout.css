@@ -1,0 +1,247 @@
+/* Styles for the checkout page */
+
+.checkout-billing {
+    height: fit-content;
+    padding: 50px;
+    background-color: #DBDFE2;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.checkout-title {
+    font-family: 'Poppins SemiBold';
+    font-size: 20px;
+    color: #000;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.checkout-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkout-label {
+    font-family: 'Poppins Regular';
+    font-size: 15px;
+    color: #000;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.checkout-input {
+    font-family: 'Poppins Light';
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid #838383;
+    transition: border ease-in-out 0.1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-input:hover {
+    border: #1c6df8 0.5px solid;
+}
+
+.checkout-input:focus {
+    outline: none;
+    border: #ee5417 1px solid;
+}
+
+.checkout-group-inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.expiry-input {
+    width: 60%;
+}
+
+.cvv-input {
+    width: 40%;
+}
+
+.checkout-checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.checkout-checkbox input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.checkout-checkbox input:focused {
+    background-color: #ee5417;
+}
+
+.checkout-checkbox-input {
+    cursor: pointer;
+}
+
+.checkout-checkbox-label {
+    font-family: 'Poppins Light';
+    font-size: 15px;
+    color: #000;
+}
+
+.checkout-card-details {
+    height: fit-content;
+    padding: 50px;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-type {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-type-label {
+    font-family: 'Poppins Regular';
+    font-size: 15px;
+    color: #000;
+}
+
+.card-type img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 0.5px solid #838383;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.card-type img:hover {
+    border: #1c6df8 0.5px solid;
+}
+
+.card-type img.selected {
+    border: #ee5417 1px solid;
+}
+
+.checkout-hr {
+    width: 100%;
+    border-color: #5F65C3;
+}
+
+.checkout-summary-title {
+    font-family: 'Poppins SemiBold';
+    font-size: 20px;
+    color: #000;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.checkout-summary-subtitles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.checkout-summary-subtitle {
+    font-family: 'Poppins Medium';
+    font-size: 15px;
+    color: #000;
+}
+
+.priced-checkout-button{
+    font-family: 'Poppins Medium';
+    font-size: 15px;
+    width: 100%;
+    align-self: center;
+    color: #FFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: background-color ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priced-checkout-span{
+    font-family: 'Poppins Medium';
+    font-size: 15px;
+    width: 100%;
+    align-self: center;
+    color: #FFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: background-color ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priced-checkout-button i, .priced-checkout-span i  {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.priced-checkout-span{
+    margin-left: 5px;
+    font-size: 15px;
+    background-color: #929090;
+
+}
+
+.priced-checkout-span:hover{
+
+    background-color: #929090;
+
+}
+
+.priced-checkout-button:hover {
+    background-color: #ee5417;
+}
+
+@media (min-width: 1078px) {
+    .checkout-grid {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 1078px) {
+    .checkout-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.error-indicator {
+    color: red;
+}

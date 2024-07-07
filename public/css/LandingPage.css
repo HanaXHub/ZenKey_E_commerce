@@ -1,0 +1,455 @@
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+        transform: translateY(-25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/setup.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 45px;
+    color: #fff;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.hero-title {
+    width: 90%;
+    font-family: 'Poppins Bold';
+    font-size: 60px;
+}
+
+.hero-subtitle {
+    width: 100%;
+    padding-top: 20px;
+    font-family: 'Poppins Regular';
+    font-size: 23px;
+}
+
+.hero-btn {
+    width: 80%;
+    padding: 40px 20px;
+    padding-left: 50px;
+    outline: none;
+    border: none;
+    background: #ff660d;
+    color: #fff;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Poppins SemiBold';
+    font-size: 20px;
+}
+
+.hero-btn:hover {
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.rakuto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rakuto img {
+    width: 100%;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.rakuto:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.logo-section img {
+    width: 50vh;
+}
+
+/* Section one starts here */
+
+.section-1 {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-1-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-color: #111111;
+}
+
+.section-1-title {
+    padding-left: 5%;
+    text-align: center;
+    font-family: 'Poppins Bold';
+    font-size: 40px;
+    color: #ff660d;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.category-title {
+    padding-left: 5%;
+    text-align: center;
+    font-family: 'Poppins SemiBold';
+    font-size: 30px;
+    color: #fff;
+}
+
+.category-grid {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.category-grid img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.category-grid img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #fff;
+}
+
+.partners-grid {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.partners-grid img {
+    width: 95%;
+    height: 100%;
+    padding: 25px;
+    object-fit: contain;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.partners-grid img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #fff;
+}
+
+
+/* Section 2 starts here */
+.section-2 {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Images/choose-us.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.section-2-title {
+    font-family: 'Poppins Bold';
+    font-size: 40px;
+    color: #ff660d;
+    text-align: center;
+}
+
+.player-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 32.5%;
+    height: 500px;
+    gap: 30px;
+    background-color: #efefef;
+    color: #000;
+    border-radius: 25px;
+}
+
+.players i {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.player-title {
+    font-family: 'Poppins SemiBold';
+    font-size: 30px;
+}
+
+.player-desc {
+    font-family: 'Poppins Regular';
+    font-size: 18px;
+    width: 55%;
+}
+
+/* Footer section */
+
+/* Add this at the end of your existing CSS */
+
+/* General adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .hero-desc {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .hero-btn {
+        width: 90%;
+        padding: 20px 20px;
+        font-size: 18px;
+    }
+
+    .rakuto {
+        width: 90%;
+    }
+
+    .rakuto img {
+        width: 100%;
+    }
+
+    .section-1-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-1-title {
+        font-size: 30px;
+    }
+
+    .category-title {
+        font-size: 24px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 50px;
+    }
+
+    .partners-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 50px;
+    }
+
+    .section-2-title {
+        font-size: 30px;
+    }
+
+    .player-wrapper {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .players {
+        width: 90%;
+        height: auto;
+    }
+
+    .player-desc {
+        width: 80%;
+    }
+}
+
+/* Responsive adjustments for Phones */
+@media (max-width: 430px) {
+    .hero-desc {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .hero-btn {
+        padding: 20px 10px;
+        padding-left: 30px;
+        font-size: 16px;
+    }
+
+    .rakuto img {
+        width: 90%;
+    }
+
+    .category-grid,
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .category-grid img,
+    .partners-grid img {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .players {
+        height: auto;
+        padding: 20px;
+    }
+
+    .players i {
+        font-size: 60px;
+    }
+
+    .player-title {
+        font-size: 24px;
+    }
+
+    .player-desc {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+/* Responsive adjustments for Ipads/tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero-title {
+        font-size: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 24px;
+    }
+
+    .hero-btn {
+        font-size: 20px;
+    }
+
+    .category-grid,
+    .partners-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .category-grid img,
+    .partners-grid img {
+        width: 90%;
+    }
+
+    .player-wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .players {
+        flex: 1 0 45%;
+        max-width: 45%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .players i {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .player-title {
+        font-size: 22px;
+    }
+
+    .player-desc {
+        font-size: 16px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .players {
+        width: 48%;
+        max-width: 48%;
+    }
+}
