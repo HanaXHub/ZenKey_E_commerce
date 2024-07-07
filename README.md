@@ -1,4 +1,4 @@
-##  ZenKey - How to launch up the code to 
+##  ZenKey - How to launch up the code
 
 **Open up a terminal and input these commands **
 ```
