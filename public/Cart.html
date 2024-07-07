@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8943e9eb68.js" crossorigin="anonymous"></script>
+    <script src="../scripts/indexedDB.js" defer></script>
+    <script src="../scripts/Cartpage.js" defer></script>
+    <script src="../scripts/Navbar.js" defer></script>
+    <script src="../scripts/Popups.js"></script>
+    <script src="../scripts/Footer.js" defer></script>
+    <link rel="stylesheet" href="../css/Cart.css">
+    <link rel="stylesheet" href="../css/Global.css">
+    <link rel="stylesheet" href="../css/Notification.css" />
+
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <script src="../scripts/app.js"></script>
+
+
+    <div class="grid-page">
+        <div class="breadcrumbs">
+            Home > <span class="breadcrumbs-active"> Cart </span>
+        </div>
+
+        <div class="cart-grid" id="cartGrid">
+            <div class="cart-items">
+                <a href="products.html">
+                    <div class="cart-items-back">
+                        <i class="fa-solid fa-angle-left fa-sm"></i>
+                        Continue Shopping
+                    </div>
+                </a>
+
+                <div class="cart-items-title">
+                    Shopping Cart
+                </div>
+
+                <div class="cart-items-subtitle" id="cartItemCount">
+                    <!-- Number of items in cart will be dynamically inserted here -->
+                </div>
+
+                <div class="cart-items-container"></div>
+            </div>
+
+            <div class="cart-summary">
+                <div class="cart-summary-title">
+                    Payment Summary
+                </div>
+                <div class="cart-summary-subtitles">
+                    <div class="cart-summary-subtitle">
+                        Subtotal:
+                    </div>
+                    <div class="cart-summary-subtitle" id="subtotal">
+                        AED 0.00
+                    </div>
+                </div>
+                <div class="cart-summary-subtitles">
+                    <div class="cart-summary-subtitle">
+                        Shipping:
+                    </div>
+                    <div class="cart-summary-subtitle" id="shipping">
+                        AED 0
+                    </div>
+                </div>
+                <div class="cart-summary-subtitles">
+                    <div class="cart-summary-subtitle">
+                        Total:
+                    </div>
+                    <div class="cart-summary-subtitle" id="total">
+                        AED 0.00
+                    </div>
+                </div>
+
+                <button class="checkout-button" onclick="window.location.href='Checkout.html'" type="button">
+                    Proceed to Checkout
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="tick-icon">
+            <i class="fa-solid fa-check-circle fa-lg" style="color: #c90303;"></i>
+        </div>
+        Item successfully removed from cart
+    </div>
+    <footer></footer>  
+
+</body>
+
+</html>

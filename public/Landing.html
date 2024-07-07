@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenkey Store</title>
+    <link rel="icon" type="image/png" href="\Images\ZenkeyLogoIcon.png" sizes="32x32">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/LandingPage.css">
+    <link rel="stylesheet" href="./css/Global.css">
+    <script src="./scripts/NavbarBeforeLogin.js" defer></script>
+    <script src="./scripts/FooterBefore.js" defer></script>
+    <link rel="manifest" href="/manifest.json">
+
+
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <script src="./scripts/app.js"></script>
+
+
+    <div class="container" id="home">
+        <div class="hero-desc">
+            <div class="hero-title">
+                Zenkey Store
+                <div class="hero-subtitle">
+                    Level up your space with our premium products and accessories
+                </div>
+            </div>
+            <a href="Signup.html">
+                <button class="hero-btn">Get Started</button>
+            </a>
+        </div>
+
+        <div class="rakuto">
+            <img src="../Images/setup2.png" alt="Rakuto Setup">
+        </div>
+    </div>
+
+    <div class="section-1" id="products">
+        <div class="section-1-wrapper">
+            <div class="section-1-title">
+                Explore Our Wide Range of Products
+            </div>
+            <div class="categories">
+                <div class="category-title">
+                    Categories
+                </div>
+                <div class="category-grid">
+                    <img src="../Images/key1.png" alt="Keyboard">
+                    <img src="../Images/mouse1.png" alt="Mouse">
+                    <img src="../Images/PhoneCase1.png" alt="Phone Case">
+                    <img src="../Images/DeskPad1.png" alt="Desk Pad">
+                </div>
+            </div>
+            <div class="categories" id="partners">
+                <div class="category-title">
+                    Our Partners
+                </div>
+                <div class="partners-grid">
+                    <img src="../Images/keychron.webp" alt="Keychron">
+                    <img src="../Images/logitech.png" alt="Logitech">
+                    <img src="../Images/inked.png" alt="Inked">
+                    <img src="../Images/Casetify_logo.png" alt="Casetify">
+                    <img src="../Images/scuff.webp" alt="Scuff">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New section is down here below -->
+    <section class="section-2" id="keyfeatures">
+        <div class="section-2-title">Why Choose Us?</div>
+        <div class="player-wrapper">
+            <div class="players">
+                <i class="fas fa-gem"></i>
+                <div class="player-title">Premium Products</div>
+                <div class="player-desc">We have partnered with the leading brands in the market, to provide the best
+                    products for your space.</div>
+            </div>
+            <!-- Player 2 -->
+            <div class="players">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="player-title">Easy Ordering</div>
+                <div class="player-desc">It is as easy as selecting a producting you like, adding to cart and completing
+                    your order.</div>
+            </div>
+            <!-- Player 3 -->
+            <div class="players">
+                <i class="fas fa-truck"></i>
+                <div class="player-title">Fast Delivery</div>
+                <div class="player-desc">We promise to deliver your orders anywhere on the globe, within a week.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        //Scroll bar flip
+        window.addEventListener("scroll", function () {
+            var scrollDirection = (window.scrollY > this.lastScroll) ? "down" : "up";
+            this.lastScroll = window.scrollY;
+            var thumb = document.querySelector("body::-webkit-scrollbar-thumb");
+
+            if (scrollDirection === "up") {
+                document.body.style.setProperty("--scroll-gradient-start", "#ff660d");
+                document.body.style.setProperty("--scroll-gradient-end", "black");
+            } else {
+                document.body.style.setProperty("--scroll-gradient-start", "black");
+                document.body.style.setProperty("--scroll-gradient-end", "#ff660d");
+            }
+        });
+        
+    </script>
+    <script src="/js/vendor/progressive-ui-kitt/progressive-ui-kitt.js"></script>
+    <script>
+    ProgressiveKITT.setStylesheet("/js/vendor/progressive-ui-kitt/themes/flat.css");
+    ProgressiveKITT.render();
+    </script>
+    
+</body>
+
+</html>

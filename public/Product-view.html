@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/indexedDB.js" defer></script>
+    <script src="./scripts/Product-view.js" defer></script>
+    <script src="./scripts/Products.js" defer></script>
+    <script src="./scripts/Navbar.js" defer></script>
+    <script src="./scripts/Popups.js"></script>
+    <script src="./scripts/Footer.js" defer></script>
+    <link rel="icon" type="image/png" href="\Images\ZenkeyLogoIcon.png" sizes="32x32">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/Product-view.css">
+    <link rel="stylesheet" href="./css/Global.css">
+    <link rel="manifest" href="/manifest.json">
+
+    <title>Product Name</title>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <div class="grid-page">
+
+        <div class="breadcrumbs">
+            Home > Products > <span class="breadcrumbs-active" id="productName"></span>
+        </div>
+
+        <div class="product-view-grid">
+            <div class="image-grid">
+                <div class="image-main">
+                    <i class="fas fa-chevron-left"></i>
+                    <div class="image-set" id="imageSet">
+                        <!-- Thumbnails will be dynamically inserted here -->
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+
+            <div class="product-desc-grid">
+                <div class="product-desc-name" id="productDescName">
+                    <!-- Product name, seller, and price will be dynamically inserted here -->
+                </div>
+                <hr class="product-desc-divider">
+                <div class="product-description" id="productDescDescription">
+                    <!-- Product description will be dynamically inserted here -->
+                </div>
+                <div class="product-desc-buttons">
+                    <div class="product-desc-quantity">
+                        <span id="quantityMinus" onclick="decreaseQuantity()">-</span>
+                        <span id="quantity">1</span>
+                        <span id="quantityPlus" onclick="increaseQuantity()">+</span>
+                    </div>
+                    <button class="product-add-to-cart" onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Pop-up element -->
+            <div class="popup" id="popup">
+                <div class="tick-icon">
+                    <i class="fa-solid fa-check-circle fa-lg" style="color: #4CAF50;"></i>
+                </div>
+                Item successfully added to cart
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+
+</body>
+
+</html>

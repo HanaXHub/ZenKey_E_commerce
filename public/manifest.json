@@ -1,0 +1,23 @@
+{
+    "short_name": "Zenkey",
+    "name": "Zenkey",
+    "description": "Browse our collection of keyboards, mice and computer accesories",
+    "start_url": "/Landing.html?utm_source=pwa",
+    "scope": "/",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "/Images/ZenkeyLogoSmall.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/Images/ZenkeyLogo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "theme_color": "#231f20",
+    "background_color": "#231f20",
+    "gcm_sender_id": "3217212971"
+  }
