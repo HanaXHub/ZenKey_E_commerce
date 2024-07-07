@@ -1,0 +1,15 @@
+{
+  "name": "zenkey",
+  "version": "1.0.0",
+  "description": "CSIT242 Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "author": "Ashna Nizar, Hana Sherif, Harsh Goreja, Hiba Gohar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  }
+}
